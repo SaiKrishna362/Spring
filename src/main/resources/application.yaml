@@ -1,0 +1,27 @@
+spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+
+#camunda.bpm.admin-user:
+ # id: demo
+  #password: demo
+
+
+
+  #spring.datasource.url: jdbc:postgresql://localhost:5432/camunda
+  #spring.datasource.username: postgres
+  #spring.database.password: 12345
+  #spring.datasource.driver-class-name: org.postgresql.Driver
+
+ # spring.jpa.hibernate.ddl-auto: update
+
+#  spring.datasource.url: jdbc:sqlserver://camunda-db-01
+#  spring.datasource.username: CloudSAe8aa3a82@camunda-db-01
+#  spring.database.password: {your_password_here}
+#  spring.datasource.driver-class-name: org.postgresql.Driver
+
+#  jdbc:sqlserver://camunda-db-01:
+#    database:
+#      windows:
+#        net:1433;database=camundaDatabase;user=CloudSAe8aa3a82@camunda-db-01;password={your_password_here};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*:
+#          database:
+#            windows:
+#              net;loginTimeout=30;:
